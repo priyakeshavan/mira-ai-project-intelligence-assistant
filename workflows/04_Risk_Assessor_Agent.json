@@ -1,0 +1,1800 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-LrY6K",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "user_request",
+            "id": "Prompt Template-w90RM",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-LrY6K{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LrY6Kœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-w90RM{œfieldNameœ:œuser_requestœ,œidœ:œPrompt Template-w90RMœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-LrY6K",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LrY6Kœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-w90RM",
+        "targetHandle": "{œfieldNameœ:œuser_requestœ,œidœ:œPrompt Template-w90RMœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt Template",
+            "id": "Prompt Template-w90RM",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "LanguageModelComponent-y2Wi6",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt Template-w90RM{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-w90RMœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-LanguageModelComponent-y2Wi6{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-y2Wi6œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt Template-w90RM",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-w90RMœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "LanguageModelComponent-y2Wi6",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-y2Wi6œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "MiraRiskJSONValidator",
+            "id": "CustomComponent-tXyhI",
+            "name": "validated_response",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-yf2Fa",
+            "inputTypes": [
+              "Data",
+              "JSON",
+              "DataFrame",
+              "Table",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-tXyhI{œdataTypeœ:œMiraRiskJSONValidatorœ,œidœ:œCustomComponent-tXyhIœ,œnameœ:œvalidated_responseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-yf2Fa{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-yf2Faœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-tXyhI",
+        "sourceHandle": "{œdataTypeœ:œMiraRiskJSONValidatorœ,œidœ:œCustomComponent-tXyhIœ,œnameœ:œvalidated_responseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-yf2Fa",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-yf2Faœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LanguageModelComponent",
+            "id": "LanguageModelComponent-y2Wi6",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model_response",
+            "id": "CustomComponent-tXyhI",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__LanguageModelComponent-y2Wi6{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-y2Wi6œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-tXyhI{œfieldNameœ:œmodel_responseœ,œidœ:œCustomComponent-tXyhIœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "LanguageModelComponent-y2Wi6",
+        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-y2Wi6œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-tXyhI",
+        "targetHandle": "{œfieldNameœ:œmodel_responseœ,œidœ:œCustomComponent-tXyhIœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-LrY6K",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "user_request",
+            "id": "CustomComponent-tXyhI",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-LrY6K{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LrY6Kœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-tXyhI{œfieldNameœ:œuser_requestœ,œidœ:œCustomComponent-tXyhIœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-LrY6K",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LrY6Kœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-tXyhI",
+        "targetHandle": "{œfieldNameœ:œuser_requestœ,œidœ:œCustomComponent-tXyhIœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "ChatInput-LrY6K",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "files"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "7a26c54d89ed",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.chat.ChatInput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chat Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom lfx.schema.message import Message\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        # Ensure files is a list and filter out empty/None values\n        files = self.files if self.files else []\n        if files and not isinstance(files, list):\n            files = [files]\n        # Filter out None/empty values\n        files = [f for f in files if f is not None and f != \"\"]\n\n        session_id = self.session_id or self.graph.session_id or \"\"\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=session_id,\n            context_id=self.context_id,\n            files=files,\n        )\n        if session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "csv",
+                  "json",
+                  "pdf",
+                  "txt",
+                  "md",
+                  "mdx",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "Input Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "api_editable": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-LrY6K",
+        "measured": {
+          "height": 52,
+          "width": 192
+        },
+        "position": {
+          "x": -57.29490344941761,
+          "y": 392.33866450492314
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-yf2Fa",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "data_template",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "84009527d08c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "orjson",
+                    "version": "3.11.9"
+                  },
+                  {
+                    "name": "fastapi",
+                    "version": "0.139.0"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.input_output.chat_output.ChatOutput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean data before converting to string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.helpers.data import safe_convert\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.schema.properties import Source\nfrom lfx.template.field.base import Output\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"JSON\", \"DataFrame\", \"Table\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            advanced=True,\n            info=\"Whether to clean data before converting to string.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, _, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message) and not self.is_connected_to_chat_input():\n            message = self.input_value\n            # Update message properties\n            message.text = text\n            # Preserve existing session_id from the incoming message if it exists\n            existing_session_id = message.session_id\n        else:\n            message = Message(text=text)\n            existing_session_id = None\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        # Preserve session_id from incoming message, or use component/graph session_id\n        message.session_id = (\n            self.session_id or existing_session_id or (self.graph.session_id if hasattr(self, \"graph\") else None) or \"\"\n        )\n        message.context_id = self.context_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if message.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        # Set accumulated token usage from all upstream LLM vertices.\n        # This must happen AFTER send_message() because streaming captures\n        # usage from chunks and would overwrite accumulated totals.\n        if hasattr(self, \"_vertex\") and self._vertex is not None:\n            accumulated_usage = self._vertex._accumulate_upstream_token_usage()  # noqa: SLF001\n            if accumulated_usage:\n                message.properties.usage = accumulated_usage\n                if self.should_store_message and message.get_id():\n                    message = await self._update_stored_message(message)\n                    await self._send_message_event(message, id_=message.get_id())\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "JSON",
+                  "DataFrame",
+                  "Table",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "api_editable": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-yf2Fa",
+        "measured": {
+          "height": 52,
+          "width": 192
+        },
+        "position": {
+          "x": 1464.79086207848,
+          "y": 249.90246044613554
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt Template-w90RM",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "user_request",
+                "risk_context"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Mira Risk Prompt",
+            "documentation": "https://docs.langflow.org/components-prompts",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "use_double_brackets",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "3d3fd7b8a36f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.models_and_agents.prompt.PromptComponent"
+            },
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "replacement": null,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "678d729a-1da2-4dff-9229-43fc6c2733be"
+              },
+              "_frontend_node_folder_id": {
+                "value": "3c702623-a1e6-4416-a86c-caa2b23f7236"
+              },
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.prompts.api_utils import process_prompt_template\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.input_mixin import FieldTypes\nfrom lfx.inputs.inputs import DefaultPromptField\nfrom lfx.io import BoolInput, MessageTextInput, Output, PromptInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.template.utils import update_template_values\nfrom lfx.utils.mustache_security import validate_mustache_template\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        BoolInput(\n            name=\"use_double_brackets\",\n            display_name=\"Use Double Brackets\",\n            value=False,\n            advanced=True,\n            info=\"Use {{variable}} syntax instead of {variable}.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            show=False,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        \"\"\"Update the template field type based on the selected mode.\"\"\"\n        if field_name == \"use_double_brackets\":\n            # Change the template field type based on mode\n            is_mustache = field_value is True\n            if is_mustache:\n                build_config[\"template\"][\"type\"] = FieldTypes.MUSTACHE_PROMPT.value\n            else:\n                build_config[\"template\"][\"type\"] = FieldTypes.PROMPT.value\n\n            # Re-process the template to update variables when mode changes\n            template_value = build_config.get(\"template\", {}).get(\"value\", \"\")\n            if template_value:\n                # Ensure custom_fields is properly initialized\n                if \"custom_fields\" not in build_config:\n                    build_config[\"custom_fields\"] = {}\n\n                # Clean up fields from the OLD mode before processing with NEW mode\n                # This ensures we don't keep fields with wrong syntax even if validation fails\n                old_custom_fields = build_config[\"custom_fields\"].get(\"template\", [])\n                for old_field in list(old_custom_fields):\n                    # Remove the field from custom_fields and template\n                    if old_field in old_custom_fields:\n                        old_custom_fields.remove(old_field)\n                    build_config.pop(old_field, None)\n\n                # Try to process template with new mode to add new variables\n                # If validation fails, at least we cleaned up old fields\n                try:\n                    # Validate mustache templates for security\n                    if is_mustache:\n                        validate_mustache_template(template_value)\n\n                    # Re-process template with new mode to add new variables\n                    _ = process_prompt_template(\n                        template=template_value,\n                        name=\"template\",\n                        custom_fields=build_config[\"custom_fields\"],\n                        frontend_node_template=build_config,\n                        is_mustache=is_mustache,\n                    )\n                except ValueError as e:\n                    # If validation fails, we still updated the mode and cleaned old fields\n                    # User will see error when they try to save\n                    logger.debug(f\"Template validation failed during mode switch: {e}\")\n        return build_config\n\n    async def build_prompt(self) -> Message:\n        use_double_brackets = self.use_double_brackets if hasattr(self, \"use_double_brackets\") else False\n        template_format = \"mustache\" if use_double_brackets else \"f-string\"\n        prompt = await Message.from_template_and_variables(template_format=template_format, **self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(prompt_template)\n\n            custom_fields = frontend_node[\"custom_fields\"]\n            frontend_node_template = frontend_node[\"template\"]\n            _ = process_prompt_template(\n                template=prompt_template,\n                name=\"template\",\n                custom_fields=custom_fields,\n                frontend_node_template=frontend_node_template,\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be created\n            logger.debug(f\"Template validation failed in _update_template: {e}\")\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(template)\n\n            # Kept it duplicated for backwards compatibility\n            _ = process_prompt_template(\n                template=template,\n                name=\"template\",\n                custom_fields=frontend_node[\"custom_fields\"],\n                frontend_node_template=frontend_node[\"template\"],\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be updated\n            logger.debug(f\"Template validation failed in update_frontend_node: {e}\")\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "is_refresh": false,
+              "risk_context": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "risk_context",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "risk_context",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "SOURCE FILE: project_risks(2).csv\nSOURCE TYPE: Verified project risk register\nPROJECT: AI Adoption Project at ABCDE Ltd.\nTOTAL SOURCE RISKS: 10\n\nFIELDS: risk_id | category | risk_challenge | impact | mitigation_strategy\n\nR01 | Data Quality & Availability | Incomplete or unstructured data | Poor model performance and inaccurate outcomes | Perform early data audits and implement robust data governance\nR02 | Integration Issues | Difficulty integrating AI with legacy systems | Delays in deployment and operational disruptions | Plan integration roadmap and use APIs/middleware\nR03 | Talent & Skills Gap | Lack of internal AI/ML expertise | Overreliance on external vendors and slow progress | Provide staff training and hire specialized talent\nR04 | Change Resistance | Employees resist adopting AI-driven workflows | Low adoption and reduced ROI | Strong change management and early engagement\nR05 | Ethical & Legal Concerns | Risks of biased models or data privacy violations | Legal repercussions and reputational damage | Involve legal early and implement fairness checks\nR06 | Cost Overruns | Underestimation of AI development costs | Budget constraints and project delays | Set realistic budget and build in contingency funds\nR07 | Unrealistic Expectations | Stakeholders expect immediate ROI | Disillusionment and loss of support | Align expectations and show quick wins\nR08 | Model Performance Drift | AI models lose accuracy over time | Incorrect decisions and trust erosion | Regular retraining cycles and monitoring dashboards\nR09 | Security Vulnerabilities | AI models targeted by adversarial attacks | Data breaches and operational risks | Adopt AI security best practices and penetration testing\nR10 | Vendor Lock-in | Overdependence on a specific AI platform | Flexibility loss and future switching costs | Favor open standards and negotiate flexible vendor terms\n\nGROUNDING RULES:\n- Use the official risk IDs R01 through R10.\n- Preserve exact source category names.\n- Source facts are the risk ID, category, risk challenge, impact, and mitigation strategy.\n- Likelihood ratings, numerical impact ratings, risk scores, priorities, and contingency plans are NOT provided in the CSV.\n- Clearly mark generated ratings and contingency plans as proposed assessments.\n- Never invent additional source risks or official IDs.\n- For top-N requests, evaluate all ten source risks consistently before selecting N.\n- Do not use these ABCDE risks for an unrelated or unidentified project.\n\nPROVISIONAL SCORING BASELINE v1\nOrigin: Mira T3 successful assessment; NOT original CSV data and NOT stakeholder-approved.\nFields: risk_id | likelihood | impact\nR01 | High | High\nR02 | Medium | High\nR03 | High | Medium\nR04 | Medium | Medium\nR05 | Medium | High\nR06 | Medium | High\nR07 | Medium | Medium\nR08 | Medium | High\nR09 | Medium | High\nR10 | Medium | Medium\n\nFor ABCDE risk assessments, use these provisional ratings consistently. Do not independently change them between T3 and T7. Calculate risk_score and priority using the defined scoring rules. For top-N, sort by descending score and then ascending risk_id. State that ratings are provisional, not source-approved."
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "prompt",
+                "value": "You are Mira Risk Assessor, an AI project risk management assistant supporting PMs and TPMs at Nexora Pvt. Ltd.\n\nUSER REQUEST:\n{user_request}\n\nPROJECT AND RISK REFERENCE DATA:\n{risk_context}\n\nYOUR RESPONSIBILITIES:\n1. Identify project-specific risks grounded in the provided reference data.\n2. Categorize risks and assess likelihood and impact.\n3. Recommend practical mitigations and contingency actions.\n4. Prioritize risks using the scoring rules below.\n5. Ask for missing information when the project is insufficiently described.\n\nGROUNDING RULES:\n- Use the supplied project and risk reference data as the source of truth.\n- Never invent risk IDs, source records, owners, deadlines, or numerical facts.\n- For ABCDE Ltd. requests, use the verified risk records R01–R10 from project_risks(2).csv supplied in risk_context.\n- For a top-N risks request, select only actual source risks and return no more than N.\n- If source data does not provide a likelihood, impact, owner, or mitigation, clearly mark the proposed value as an assessment or recommendation, not a recorded fact.\n- Do not transfer ABCDE Ltd. risks to an unrelated project.\n- If the user provides only a vague project description, return INSUFFICIENT_INFORMATION and do not fabricate a project-specific risk register.\n\nSCORING:\n- Likelihood: Low=1, Medium=2, High=3.\n- Impact: Low=1, Medium=2, High=3.\n- Risk score = likelihood number multiplied by impact number.\n- Priority: 1-2 Low, 3-4 Medium, 6-9 High.\n- Use these as proposed assessment scores unless the source provides approved values.\n\nJSON OUTPUT RULES:\nReturn only a valid JSON object, with no Markdown fences.\nRequired top-level fields:\nstatus: string, SUCCESS or INSUFFICIENT_INFORMATION\nproject_name: string\nassessment_summary: string\nrisks: array of objects\nmissing_information: array of strings\nclarifying_questions: array of strings\nsources_used: array of strings\n\nEach risk object must include:\nrisk_id: string\ncategory: string\ndescription: string\nlikelihood: string, Low or Medium or High\nimpact: string, Low or Medium or High\nrisk_score: integer\npriority: string, Low or Medium or High\nmitigation: string\ncontingency: string\nsource: string\nassessment_basis: string\n\nAlways return arrays for risks, missing_information, clarifying_questions, and sources_used. Use empty arrays when there are no values. Never return null for array fields.\n\nFor insufficient-information requests, populate missing_information and clarifying_questions, and return an empty risks array.\n\nRISK ASSESSMENT GUARDRAILS:\n1. First identify the project explicitly referenced in the USER REQUEST. Never assume that the user is asking about ABCDE Ltd. simply because ABCDE reference data is available.\n2. If the request describes an unnamed or vague project, such as 'New project starting soon', return status INSUFFICIENT_INFORMATION, risks [], and meaningful missing_information and clarifying_questions. Do not reuse ABCDE project risks.\n3. Use ABCDE source records only when the user explicitly refers to ABCDE Ltd., the AI Adoption Project at ABCDE Ltd., or clearly identifies that same project.\n4. For top-N risk requests, evaluate all available source-listed risks, assign proposed likelihood and impact ratings consistently, calculate scores, sort by risk_score descending, and return no more than N risks. Break ties using a clearly stated assessment rationale.\n5. Clearly label likelihood, impact, priority, and ranking as proposed assessments unless recorded in the source.\n6. For ABCDE Ltd., use the official source risk IDs R01–R10 from project_risks(2).csv. Never invent or modify these IDs.\n7. For a full project risk assessment without a requested limit, consider all relevant documented risk categories rather than arbitrarily stopping at five.\n8. Never describe generated output as verified or approved unless an explicit validation or approval process has occurred.\n\nMANDATORY RISK SCORING VALIDATION:\nBefore returning JSON, calculate each risk's score using:\nLow = 1, Medium = 2, High = 3.\nrisk_score = likelihood_value * impact_value.\nSet priority strictly from risk_score:\n- Scores 1 or 2: Low\n- Scores 3 or 4: Medium\n- Scores 6 or 9: High\nNever assign priority based on subjective judgment separately from risk_score.\nBefore finalizing, check EVERY risk object for consistency between likelihood, impact, risk_score, and priority.\nUse official risk IDs and category names from project_risks(2).csv.\nLikelihood, numerical impact, risk scores, and priorities are proposed assessments, not source-recorded values.\n\nTOP-N RISK RANKING:\nEvaluate all 10 source risks using a consistent proposed assessment before selecting the top N.\nSort by risk_score descending.\nFor equal scores, sort by official risk_id ascending (R01, R02, R03, etc.) as a deterministic tie-breaker.\nReturn exactly N risks when at least N source risks are available.\nMention in assessment_summary when additional risks have equal scores and the selection uses the risk_id tie-breaker.\nDo not present proposed scores or rankings as approved source facts.\n\nMANDATORY OUTPUT ORDER FOR ABCDE LTD:\nUse Provisional Scoring Baseline v1 from risk_context without changing any ratings.\nSort ALL risks by descending risk_score, then ascending risk_id.\n\nThe required complete order is:\nR01, R02, R03, R05, R06, R08, R09, R04, R07, R10.\n\nFor a full assessment, return all ten risks in this exact order.\nFor a top-3 request, return exactly R01, R02, R03 in this order.\nFor other top-N requests, return the first N risks from this ordered list.\n\nThese rankings are provisional and not stakeholder-approved."
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "use_double_brackets": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Use Double Brackets",
+                "dynamic": false,
+                "info": "Use {{variable}} syntax instead of {variable}.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_double_brackets",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "user_request": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "user_request",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "user_request",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt Template"
+        },
+        "dragging": false,
+        "id": "Prompt Template-w90RM",
+        "measured": {
+          "height": 429,
+          "width": 320
+        },
+        "position": {
+          "x": 223.78280969149228,
+          "y": -37.38843926789934
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "_connectionMode": false,
+          "id": "LanguageModelComponent-y2Wi6",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Runs a language model given a specified provider.",
+            "display_name": "Mira Risk LLM",
+            "documentation": "https://docs.langflow.org/components-models",
+            "edited": false,
+            "field_order": [
+              "model",
+              "model_name",
+              "provider",
+              "api_key",
+              "base_url_ibm_watsonx",
+              "project_id",
+              "ollama_base_url",
+              "input_value",
+              "system_message",
+              "stream",
+              "temperature",
+              "max_tokens"
+            ],
+            "frozen": false,
+            "icon": "brain-circuit",
+            "last_updated": "2026-11-02T18:51:45.715Z",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "4942994b24a6",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "module": "lfx.components.models_and_agents.language_model.LanguageModelComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "678d729a-1da2-4dff-9229-43fc6c2733be"
+              },
+              "_frontend_node_folder_id": {
+                "value": "3c702623-a1e6-4416-a86c-caa2b23f7236"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "API Key",
+                "dynamic": false,
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "OPENAI_API_KEY"
+              },
+              "base_url_ibm_watsonx": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "api_editable": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API (IBM watsonx.ai only)",
+                "name": "base_url_ibm_watsonx",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.models_and_agents.model_selection import apply_model_overrides\nfrom lfx.field_typing.constants import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, StrInput\nfrom lfx.io import IntInput, MessageInput, ModelInput, MultilineInput, SecretStrInput, SliderInput\n\nDEFAULT_OLLAMA_URL = \"http://localhost:11434\"\n\n\nclass LanguageModelComponent(LCModelComponent):\n    display_name = \"Language Model\"\n    description = \"Runs a language model given a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-models\"\n    icon = \"brain-circuit\"\n    category = \"models\"\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name Override\",\n            info=(\n                \"Optional model name to use instead of the selected model. \"\n                \"Can be set from a global variable for runtime model selection.\"\n            ),\n            advanced=True,\n            load_from_db=False,\n        ),\n        StrInput(\n            name=\"provider\",\n            display_name=\"Provider Override\",\n            info=(\n                \"Optional provider to use with Model Name Override. Leave blank to use the selected model's provider.\"\n            ),\n            advanced=True,\n            load_from_db=False,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            required=False,\n            show=True,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        StrInput(\n            name=\"ollama_base_url\",\n            display_name=\"Ollama API URL\",\n            info=f\"Endpoint of the Ollama API (Ollama only). Defaults to {DEFAULT_OLLAMA_URL}\",\n            value=DEFAULT_OLLAMA_URL,\n            show=False,\n            real_time_refresh=True,\n        ),\n        MessageInput(\n            name=\"input_value\",\n            display_name=\"Input\",\n            info=\"The input text to send to the model\",\n        ),\n        MultilineInput(\n            name=\"system_message\",\n            display_name=\"System Message\",\n            info=\"A system message that helps set the behavior of the assistant\",\n            advanced=False,\n        ),\n        BoolInput(\n            name=\"stream\",\n            display_name=\"Stream\",\n            info=\"Whether to stream the response\",\n            value=False,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            info=\"Controls randomness in responses\",\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        model = apply_model_overrides(\n            self.model,\n            model_name=getattr(self, \"model_name\", None),\n            provider=getattr(self, \"provider\", None),\n            user_id=self.user_id,\n            get_options=get_language_model_options,\n        )\n        return get_llm(\n            model=model,\n            user_id=self.user_id,\n            api_key=self.api_key,\n            temperature=self.temperature,\n            stream=self.stream,\n            max_tokens=getattr(self, \"max_tokens\", None),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n            ollama_base_url=getattr(self, \"ollama_base_url\", None),\n        )\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None):\n        \"\"\"Dynamically update build config with user-filtered model options.\"\"\"\n        return handle_model_input_update(self, build_config, field_value, field_name)\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input text to send to the model",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": true,
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 1,
+                  "step": 1,
+                  "step_type": "int"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model": {
+                "_input_type": "ModelInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Language Model",
+                "dynamic": false,
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "model_type": "language",
+                "name": "model",
+                "options": [
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6.1-terra"
+                      ]
+                    },
+                    "name": "gpt-6.1-terra",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6.1-sol"
+                      ]
+                    },
+                    "name": "gpt-6.1-sol",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6-luna"
+                      ]
+                    },
+                    "name": "gpt-6-luna",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6-sol"
+                      ]
+                    },
+                    "name": "gpt-6-sol",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6-astra"
+                      ]
+                    },
+                    "name": "gpt-6-astra",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-5.6"
+                      ]
+                    },
+                    "name": "gpt-5.6",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-5.6-sol"
+                      ]
+                    },
+                    "name": "gpt-5.6-sol",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-5.1"
+                      ]
+                    },
+                    "name": "gpt-5.1",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "o4-mini"
+                      ]
+                    },
+                    "name": "o4-mini",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "gpt-4o-mini",
+                    "provider": "OpenAI"
+                  }
+                ],
+                "override_skip": false,
+                "placeholder": "Setup Provider",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": [
+                  {
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "gpt-4o-mini",
+                    "provider": "OpenAI"
+                  }
+                ]
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Model Name Override",
+                "dynamic": false,
+                "info": "Optional model name to use instead of the selected model. Can be set from a global variable for runtime model selection.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "ollama_base_url": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Ollama API URL",
+                "dynamic": false,
+                "info": "Endpoint of the Ollama API (Ollama only). Defaults to http://localhost:11434",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "ollama_base_url",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "http://localhost:11434"
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "provider": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Provider Override",
+                "dynamic": false,
+                "info": "Optional provider to use with Model Name Override. Leave blank to use the selected model's provider.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "provider",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Whether to stream the response",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "A system message that helps set the behavior of the assistant",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness in responses",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.1
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "text_output",
+          "showNode": true,
+          "type": "LanguageModelComponent"
+        },
+        "dragging": false,
+        "id": "LanguageModelComponent-y2Wi6",
+        "measured": {
+          "height": 371,
+          "width": 320
+        },
+        "position": {
+          "x": 633.2502641023558,
+          "y": -24.685500810653714
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-tXyhI",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Validates grounded risks, provisional scores, and rankings.",
+            "display_name": "Mira Risk JSON Validator",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "model_response",
+              "user_request"
+            ],
+            "frozen": false,
+            "icon": "shield-check",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "396b924a9651",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "1.11.0"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "custom_components.mira_risk_json_validator"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validated Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "validate_json",
+                "name": "validated_response",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "\r\nimport json\r\nimport re\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MessageTextInput, Output\r\nfrom langflow.schema.message import Message\r\n\r\n\r\nclass MiraRiskJSONValidator(Component):\r\n    display_name = \"Mira Risk JSON Validator\"\r\n    description = \"Validates grounded risks, provisional scores, and rankings.\"\r\n    icon = \"shield-check\"\r\n    name = \"MiraRiskJSONValidator\"\r\n\r\n    # Exact categories from project_risks(2).csv\r\n    SOURCE_CATEGORIES = {\r\n        \"R01\": \"Data Quality & Availability\",\r\n        \"R02\": \"Integration Issues\",\r\n        \"R03\": \"Talent & Skills Gap\",\r\n        \"R04\": \"Change Resistance\",\r\n        \"R05\": \"Ethical & Legal Concerns\",\r\n        \"R06\": \"Cost Overruns\",\r\n        \"R07\": \"Unrealistic Expectations\",\r\n        \"R08\": \"Model Performance Drift\",\r\n        \"R09\": \"Security Vulnerabilities\",\r\n        \"R10\": \"Vendor Lock-in\",\r\n    }\r\n\r\n    # Proposed T3 assessment, NOT values from the CSV.\r\n    BASELINE_V1 = {\r\n        \"R01\": (\"High\", \"High\"),\r\n        \"R02\": (\"Medium\", \"High\"),\r\n        \"R03\": (\"High\", \"Medium\"),\r\n        \"R04\": (\"Medium\", \"Medium\"),\r\n        \"R05\": (\"Medium\", \"High\"),\r\n        \"R06\": (\"Medium\", \"High\"),\r\n        \"R07\": (\"Medium\", \"Medium\"),\r\n        \"R08\": (\"Medium\", \"High\"),\r\n        \"R09\": (\"Medium\", \"High\"),\r\n        \"R10\": (\"Medium\", \"Medium\"),\r\n    }\r\n\r\n    LEVELS = {\"Low\": 1, \"Medium\": 2, \"High\": 3}\r\n\r\n    inputs = [\r\n        MessageTextInput(\r\n            name=\"model_response\",\r\n            display_name=\"Model Response\",\r\n            required=True,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"user_request\",\r\n            display_name=\"User Request\",\r\n            required=True,\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(\r\n            name=\"validated_response\",\r\n            display_name=\"Validated Response\",\r\n            method=\"validate_json\",\r\n        ),\r\n    ]\r\n\r\n    @staticmethod\r\n    def as_text(value):\r\n        if hasattr(value, \"text\"):\r\n            value = value.text\r\n        return str(value or \"\").strip()\r\n\r\n    @staticmethod\r\n    def get_priority(score):\r\n        if score >= 6:\r\n            return \"High\"\r\n        if score >= 3:\r\n            return \"Medium\"\r\n        return \"Low\"\r\n\r\n    def validate_json(self) -> Message:\r\n        raw = self.as_text(self.model_response)\r\n        request = self.as_text(self.user_request)\r\n\r\n        raw = re.sub(\r\n            r\"^```(?:json)?\\s*|\\s*```$\",\r\n            \"\",\r\n            raw,\r\n            flags=re.IGNORECASE,\r\n        ).strip()\r\n\r\n        errors = []\r\n\r\n        try:\r\n            data = json.loads(raw)\r\n        except json.JSONDecodeError as exc:\r\n            return Message(text=json.dumps({\r\n                \"validation_status\": \"FAIL\",\r\n                \"errors\": [f\"Invalid JSON: {exc.msg}\"],\r\n            }, indent=2))\r\n\r\n        if not isinstance(data, dict):\r\n            return Message(text=json.dumps({\r\n                \"validation_status\": \"FAIL\",\r\n                \"errors\": [\"Root must be a JSON object.\"],\r\n            }, indent=2))\r\n\r\n        status = data.get(\"status\")\r\n        if status not in {\"SUCCESS\", \"INSUFFICIENT_INFORMATION\"}:\r\n            errors.append(\"Invalid or missing status.\")\r\n\r\n        for field in [\"project_name\", \"assessment_summary\"]:\r\n            if not isinstance(data.get(field), str):\r\n                errors.append(f\"{field} must be a string.\")\r\n\r\n        array_fields = [\r\n            \"risks\",\r\n            \"missing_information\",\r\n            \"clarifying_questions\",\r\n            \"sources_used\",\r\n        ]\r\n\r\n        for field in array_fields:\r\n            if not isinstance(data.get(field), list):\r\n                errors.append(f\"{field} must be an array.\")\r\n            elif field != \"risks\":\r\n                for i, item in enumerate(data[field]):\r\n                    if not isinstance(item, str):\r\n                        errors.append(f\"{field}[{i}] must be a string.\")\r\n\r\n        risks = data.get(\"risks\")\r\n        if not isinstance(risks, list):\r\n            risks = []\r\n\r\n        # Determine whether the request explicitly identifies ABCDE.\r\n        is_abcde = bool(re.search(\r\n            r\"\\bABCDE\\b\", request, flags=re.IGNORECASE\r\n        ))\r\n\r\n        # Support \"top 3\", \"top three\", etc.\r\n        number_words = {\r\n            \"one\": 1, \"two\": 2, \"three\": 3,\r\n            \"four\": 4, \"five\": 5, \"six\": 6,\r\n            \"seven\": 7, \"eight\": 8,\r\n            \"nine\": 9, \"ten\": 10,\r\n        }\r\n\r\n        top_match = re.search(\r\n            r\"\\btop\\s+(\\d+|one|two|three|four|five|six|\"\r\n            r\"seven|eight|nine|ten)\\b\",\r\n            request,\r\n            flags=re.IGNORECASE,\r\n        )\r\n\r\n        top_n = None\r\n        if top_match:\r\n            value = top_match.group(1).lower()\r\n            top_n = (\r\n                int(value) if value.isdigit()\r\n                else number_words[value]\r\n            )\r\n\r\n        # Treat an unqualified assessment request as a full assessment.\r\n        full_assessment = (\r\n            is_abcde\r\n            and top_n is None\r\n            and bool(re.search(\r\n                r\"\\b(risk assessment|assess risks|all risks)\\b\",\r\n                request,\r\n                flags=re.IGNORECASE,\r\n            ))\r\n        )\r\n\r\n        if status == \"INSUFFICIENT_INFORMATION\":\r\n            if risks:\r\n                errors.append(\r\n                    \"Insufficient-information response must have risks=[].\"\r\n                )\r\n            if not data.get(\"missing_information\"):\r\n                errors.append(\"Missing information must be identified.\")\r\n            if not data.get(\"clarifying_questions\"):\r\n                errors.append(\"Clarifying questions are required.\")\r\n\r\n        if status == \"SUCCESS\":\r\n            if not risks:\r\n                errors.append(\"Successful assessment must contain risks.\")\r\n\r\n            # Prevent unrelated or vague requests from borrowing ABCDE data.\r\n            if not is_abcde:\r\n                errors.append(\r\n                    \"Project not explicitly identified as ABCDE; \"\r\n                    \"cannot validate using ABCDE grounding.\"\r\n                )\r\n\r\n        seen_ids = set()\r\n        actual_ids = []\r\n\r\n        for i, risk in enumerate(risks):\r\n            prefix = f\"risks[{i}]\"\r\n\r\n            if not isinstance(risk, dict):\r\n                errors.append(f\"{prefix} must be an object.\")\r\n                continue\r\n\r\n            string_fields = [\r\n                \"risk_id\", \"category\", \"description\",\r\n                \"likelihood\", \"impact\", \"priority\",\r\n                \"mitigation\", \"contingency\", \"source\",\r\n                \"assessment_basis\",\r\n            ]\r\n\r\n            for field in string_fields:\r\n                if not isinstance(risk.get(field), str):\r\n                    errors.append(f\"{prefix}.{field} must be a string.\")\r\n\r\n            risk_id = risk.get(\"risk_id\")\r\n            if not isinstance(risk_id, str):\r\n                continue\r\n\r\n            actual_ids.append(risk_id)\r\n\r\n            if risk_id in seen_ids:\r\n                errors.append(f\"{prefix}: duplicate risk_id {risk_id}.\")\r\n            seen_ids.add(risk_id)\r\n\r\n            if risk_id not in self.SOURCE_CATEGORIES:\r\n                errors.append(f\"{prefix}: unknown source ID {risk_id}.\")\r\n                continue\r\n\r\n            expected_category = self.SOURCE_CATEGORIES[risk_id]\r\n            if risk.get(\"category\") != expected_category:\r\n                errors.append(\r\n                    f\"{prefix}: expected category {expected_category}.\"\r\n                )\r\n\r\n            if risk.get(\"source\") != \"project_risks(2).csv\":\r\n                errors.append(\r\n                    f\"{prefix}: expected source project_risks(2).csv.\"\r\n                )\r\n\r\n            expected_likelihood, expected_impact = (\r\n                self.BASELINE_V1[risk_id]\r\n            )\r\n\r\n            if risk.get(\"likelihood\") != expected_likelihood:\r\n                errors.append(\r\n                    f\"{prefix}: expected provisional likelihood \"\r\n                    f\"{expected_likelihood}.\"\r\n                )\r\n\r\n            if risk.get(\"impact\") != expected_impact:\r\n                errors.append(\r\n                    f\"{prefix}: expected provisional impact \"\r\n                    f\"{expected_impact}.\"\r\n                )\r\n\r\n            expected_score = (\r\n                self.LEVELS[expected_likelihood]\r\n                * self.LEVELS[expected_impact]\r\n            )\r\n\r\n            score = risk.get(\"risk_score\")\r\n            if type(score) is not int or score != expected_score:\r\n                errors.append(\r\n                    f\"{prefix}: expected risk_score {expected_score}.\"\r\n                )\r\n\r\n            expected_priority = self.get_priority(expected_score)\r\n            if risk.get(\"priority\") != expected_priority:\r\n                errors.append(\r\n                    f\"{prefix}: expected priority {expected_priority}.\"\r\n                )\r\n\r\n            if not risk.get(\"assessment_basis\"):\r\n                errors.append(\r\n                    f\"{prefix}: assessment_basis is required.\"\r\n                )\r\n\r\n        if status == \"SUCCESS\" and is_abcde:\r\n            expected_ranking = sorted(\r\n                self.BASELINE_V1,\r\n                key=lambda rid: (\r\n                    -self.LEVELS[self.BASELINE_V1[rid][0]]\r\n                    * self.LEVELS[self.BASELINE_V1[rid][1]],\r\n                    rid,\r\n                ),\r\n            )\r\n\r\n            if top_n is not None:\r\n                expected_ids = expected_ranking[:top_n]\r\n\r\n                if actual_ids != expected_ids:\r\n                    errors.append(\r\n                        \"Incorrect top-N ranking. \"\r\n                        f\"Expected {expected_ids}; got {actual_ids}.\"\r\n                    )\r\n\r\n            elif full_assessment:\r\n                expected_ids = set(self.SOURCE_CATEGORIES)\r\n\r\n                if set(actual_ids) != expected_ids:\r\n                    missing = sorted(expected_ids - set(actual_ids))\r\n                    extra = sorted(set(actual_ids) - expected_ids)\r\n\r\n                    errors.append(\r\n                        \"Full assessment must cover all 10 risks. \"\r\n                        f\"Missing: {missing}; unexpected: {extra}.\"\r\n                    )\r\n      \r\n                # Verify full-assessment ranking order as well.\r\n                if (\r\n                    set(actual_ids) == expected_ids\r\n                    and actual_ids != expected_ranking\r\n                ):\r\n                    errors.append(\r\n                        \"Incorrect full-assessment order. \"\r\n                        f\"Expected {expected_ranking}; \"\r\n                        f\"got {actual_ids}.\"\r\n                    )\r\n\r\n        result = (\r\n            {\"validation_status\": \"FAIL\", \"errors\": errors}\r\n            if errors else\r\n            {\"validation_status\": \"PASS\", \"validated_data\": data}\r\n        )\r\n\r\n        return Message(text=json.dumps(result, indent=2))\r\n"
+              },
+              "model_response": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Model Response",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_response",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "user_request": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "User Request",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "user_request",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "MiraRiskJSONValidator"
+        },
+        "dragging": false,
+        "id": "CustomComponent-tXyhI",
+        "measured": {
+          "height": 305,
+          "width": 320
+        },
+        "position": {
+          "x": 1027.227066137268,
+          "y": 152.8920038575039
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 582.5898068988353,
+      "y": -442.1773290098463,
+      "zoom": 2
+    }
+  },
+  "description": "Mapping Meaningful Conversations.",
+  "endpoint_name": null,
+  "id": "678d729a-1da2-4dff-9229-43fc6c2733be",
+  "is_component": false,
+  "last_tested_version": "1.11.0",
+  "locked": false,
+  "name": "Mira Risk Assessor Agent ",
+  "tags": []
+}

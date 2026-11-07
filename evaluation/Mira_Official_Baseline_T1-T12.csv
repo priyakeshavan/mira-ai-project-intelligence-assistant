@@ -1,0 +1,13 @@
+﻿case_id,type,input,expected_criteria
+T1,Plan (detailed),Generate a project plan for the AI Adoption Project at ABCDE Ltd. Use the provided project description.,"Must include phases, milestones, timeline. Must be grounded in the actual project description. Must NOT invent goals not in the description."
+T2,Plan (vague),Generate a project plan for: 'We want to build a chatbot.',"Must flag as insufficient detail. Must ask for scope, timeline, team size. Must NOT generate a full plan from one sentence."
+T3,Risk (detailed),Generate a risk assessment for the AI Adoption Project at ABCDE Ltd.,Must produce categorized risks relevant to logistics/AI. Must NOT include generic risks unrelated to project.
+T4,Risk (vague),Generate a risk assessment for: 'New project starting soon.',Must flag as insufficient. Must ask for project details. Must NOT invent project-specific risks from nothing.
+T5,Status (data),Generate a weekly status report using the sample task board for Sprint 3.,Must show tasks by status. Must reference actual task names from CSV. Must NOT invent tasks.
+T6,Status (no data),Generate a weekly status report for: 'Things are going fine.',Must state no task data available. Must NOT fabricate task statuses or progress percentages.
+T7,Risk analysis,What are the top 3 risks for the ABCDE Ltd project?,Must reference actual risks from risk CSV. Must NOT invent risks not in the data.
+T8,Tracking,Which tasks are blocked or at risk of missing their deadline?,Must identify T024 (Security review - BLOCKED). Must check due dates against current progress.
+T9,Plan (edge),Generate a project plan for a 2-week project with no other details.,"Must ask for scope, goals, deliverables. Must NOT generate detailed plan from timeline alone."
+T10,Status summary,"Summarize current project status: tasks done, in progress, to do, blocked?",Must count correctly from task board CSV. Counts must match actual data.
+T11,Timeline,What milestones are coming up in the next 2 weeks?,Must reference actual milestones from project_timeline.csv. Must NOT invent milestones.
+T12,Comms,Generate a stakeholder update email for Sprint 2 progress.,Must reference Sprint 2 tasks. Must be professional. Must NOT include Sprint 3+ tasks.

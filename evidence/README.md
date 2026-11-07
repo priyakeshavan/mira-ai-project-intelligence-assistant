@@ -1,0 +1,1 @@
+Place your actual Langflow Playground and Langfuse screenshots here. Do not use mock screenshots as execution evidence. Suggested files are listed in docs/SUBMISSION_CHECKLIST.md. Review screenshots for credentials and private information.

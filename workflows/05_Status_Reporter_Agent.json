@@ -1,0 +1,2081 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-rJDN7",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "user_request",
+            "id": "CustomComponent-fGmmP",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-rJDN7{œdataTypeœ:œChatInputœ,œidœ:œChatInput-rJDN7œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-fGmmP{œfieldNameœ:œuser_requestœ,œidœ:œCustomComponent-fGmmPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-rJDN7",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-rJDN7œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-fGmmP",
+        "targetHandle": "{œfieldNameœ:œuser_requestœ,œidœ:œCustomComponent-fGmmPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-rJDN7",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "user_request",
+            "id": "Prompt Template-0Tgii",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-rJDN7{œdataTypeœ:œChatInputœ,œidœ:œChatInput-rJDN7œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-0Tgii{œfieldNameœ:œuser_requestœ,œidœ:œPrompt Template-0Tgiiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-rJDN7",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-rJDN7œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-0Tgii",
+        "targetHandle": "{œfieldNameœ:œuser_requestœ,œidœ:œPrompt Template-0Tgiiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "MiraStatusTaskProcessor",
+            "id": "CustomComponent-fGmmP",
+            "name": "task_context",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "task_context",
+            "id": "Prompt Template-0Tgii",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-fGmmP{œdataTypeœ:œMiraStatusTaskProcessorœ,œidœ:œCustomComponent-fGmmPœ,œnameœ:œtask_contextœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-0Tgii{œfieldNameœ:œtask_contextœ,œidœ:œPrompt Template-0Tgiiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-fGmmP",
+        "sourceHandle": "{œdataTypeœ:œMiraStatusTaskProcessorœ,œidœ:œCustomComponent-fGmmPœ,œnameœ:œtask_contextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-0Tgii",
+        "targetHandle": "{œfieldNameœ:œtask_contextœ,œidœ:œPrompt Template-0Tgiiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt Template",
+            "id": "Prompt Template-0Tgii",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "LanguageModelComponent-BfMmB",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt Template-0Tgii{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-0Tgiiœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-LanguageModelComponent-BfMmB{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-BfMmBœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt Template-0Tgii",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-0Tgiiœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "LanguageModelComponent-BfMmB",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œLanguageModelComponent-BfMmBœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LanguageModelComponent",
+            "id": "LanguageModelComponent-BfMmB",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model_response",
+            "id": "CustomComponent-i0jgr",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__LanguageModelComponent-BfMmB{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-BfMmBœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-i0jgr{œfieldNameœ:œmodel_responseœ,œidœ:œCustomComponent-i0jgrœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "LanguageModelComponent-BfMmB",
+        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-BfMmBœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-i0jgr",
+        "targetHandle": "{œfieldNameœ:œmodel_responseœ,œidœ:œCustomComponent-i0jgrœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-rJDN7",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "user_request",
+            "id": "CustomComponent-i0jgr",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-rJDN7{œdataTypeœ:œChatInputœ,œidœ:œChatInput-rJDN7œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-i0jgr{œfieldNameœ:œuser_requestœ,œidœ:œCustomComponent-i0jgrœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-rJDN7",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-rJDN7œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-i0jgr",
+        "targetHandle": "{œfieldNameœ:œuser_requestœ,œidœ:œCustomComponent-i0jgrœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "MiraStatusTaskProcessor",
+            "id": "CustomComponent-fGmmP",
+            "name": "task_context",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "task_context",
+            "id": "CustomComponent-i0jgr",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-fGmmP{œdataTypeœ:œMiraStatusTaskProcessorœ,œidœ:œCustomComponent-fGmmPœ,œnameœ:œtask_contextœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-i0jgr{œfieldNameœ:œtask_contextœ,œidœ:œCustomComponent-i0jgrœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-fGmmP",
+        "sourceHandle": "{œdataTypeœ:œMiraStatusTaskProcessorœ,œidœ:œCustomComponent-fGmmPœ,œnameœ:œtask_contextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-i0jgr",
+        "targetHandle": "{œfieldNameœ:œtask_contextœ,œidœ:œCustomComponent-i0jgrœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "MiraStatusJSONValidator",
+            "id": "CustomComponent-i0jgr",
+            "name": "validated_response",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-OQP5S",
+            "inputTypes": [
+              "Data",
+              "JSON",
+              "DataFrame",
+              "Table",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-i0jgr{œdataTypeœ:œMiraStatusJSONValidatorœ,œidœ:œCustomComponent-i0jgrœ,œnameœ:œvalidated_responseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-OQP5S{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-OQP5Sœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-i0jgr",
+        "sourceHandle": "{œdataTypeœ:œMiraStatusJSONValidatorœ,œidœ:œCustomComponent-i0jgrœ,œnameœ:œvalidated_responseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-OQP5S",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-OQP5Sœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "ChatInput-rJDN7",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "files"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "7a26c54d89ed",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.chat.ChatInput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chat Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom lfx.schema.message import Message\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        # Ensure files is a list and filter out empty/None values\n        files = self.files if self.files else []\n        if files and not isinstance(files, list):\n            files = [files]\n        # Filter out None/empty values\n        files = [f for f in files if f is not None and f != \"\"]\n\n        session_id = self.session_id or self.graph.session_id or \"\"\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=session_id,\n            context_id=self.context_id,\n            files=files,\n        )\n        if session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "csv",
+                  "json",
+                  "pdf",
+                  "txt",
+                  "md",
+                  "mdx",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "Input Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "api_editable": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-rJDN7",
+        "measured": {
+          "height": 52,
+          "width": 192
+        },
+        "position": {
+          "x": -76.92161704028564,
+          "y": 274.13901582154574
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-OQP5S",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "data_template",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "84009527d08c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "orjson",
+                    "version": "3.11.9"
+                  },
+                  {
+                    "name": "fastapi",
+                    "version": "0.139.0"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.input_output.chat_output.ChatOutput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean data before converting to string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.helpers.data import safe_convert\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.schema.properties import Source\nfrom lfx.template.field.base import Output\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"JSON\", \"DataFrame\", \"Table\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            advanced=True,\n            info=\"Whether to clean data before converting to string.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, _, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message) and not self.is_connected_to_chat_input():\n            message = self.input_value\n            # Update message properties\n            message.text = text\n            # Preserve existing session_id from the incoming message if it exists\n            existing_session_id = message.session_id\n        else:\n            message = Message(text=text)\n            existing_session_id = None\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        # Preserve session_id from incoming message, or use component/graph session_id\n        message.session_id = (\n            self.session_id or existing_session_id or (self.graph.session_id if hasattr(self, \"graph\") else None) or \"\"\n        )\n        message.context_id = self.context_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if message.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        # Set accumulated token usage from all upstream LLM vertices.\n        # This must happen AFTER send_message() because streaming captures\n        # usage from chunks and would overwrite accumulated totals.\n        if hasattr(self, \"_vertex\") and self._vertex is not None:\n            accumulated_usage = self._vertex._accumulate_upstream_token_usage()  # noqa: SLF001\n            if accumulated_usage:\n                message.properties.usage = accumulated_usage\n                if self.should_store_message and message.get_id():\n                    message = await self._update_stored_message(message)\n                    await self._send_message_event(message, id_=message.get_id())\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "JSON",
+                  "DataFrame",
+                  "Table",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "api_editable": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-OQP5S",
+        "measured": {
+          "height": 52,
+          "width": 192
+        },
+        "position": {
+          "x": 1788.3493961688282,
+          "y": 496.99551973932046
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "_connectionMode": false,
+          "id": "LanguageModelComponent-BfMmB",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Runs a language model given a specified provider.",
+            "display_name": "Mira Status LLM",
+            "documentation": "https://docs.langflow.org/components-models",
+            "edited": false,
+            "field_order": [
+              "model",
+              "model_name",
+              "provider",
+              "api_key",
+              "base_url_ibm_watsonx",
+              "project_id",
+              "ollama_base_url",
+              "input_value",
+              "system_message",
+              "stream",
+              "temperature",
+              "max_tokens"
+            ],
+            "frozen": false,
+            "icon": "brain-circuit",
+            "last_updated": "2026-11-02T20:02:50.616Z",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "4942994b24a6",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "module": "lfx.components.models_and_agents.language_model.LanguageModelComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "e26cd235-16b8-4d42-9a7e-74e373b14c62"
+              },
+              "_frontend_node_folder_id": {
+                "value": "3c702623-a1e6-4416-a86c-caa2b23f7236"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "API Key",
+                "dynamic": false,
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "OPENAI_API_KEY"
+              },
+              "base_url_ibm_watsonx": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "api_editable": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API (IBM watsonx.ai only)",
+                "name": "base_url_ibm_watsonx",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.models_and_agents.model_selection import apply_model_overrides\nfrom lfx.field_typing.constants import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, StrInput\nfrom lfx.io import IntInput, MessageInput, ModelInput, MultilineInput, SecretStrInput, SliderInput\n\nDEFAULT_OLLAMA_URL = \"http://localhost:11434\"\n\n\nclass LanguageModelComponent(LCModelComponent):\n    display_name = \"Language Model\"\n    description = \"Runs a language model given a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-models\"\n    icon = \"brain-circuit\"\n    category = \"models\"\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name Override\",\n            info=(\n                \"Optional model name to use instead of the selected model. \"\n                \"Can be set from a global variable for runtime model selection.\"\n            ),\n            advanced=True,\n            load_from_db=False,\n        ),\n        StrInput(\n            name=\"provider\",\n            display_name=\"Provider Override\",\n            info=(\n                \"Optional provider to use with Model Name Override. Leave blank to use the selected model's provider.\"\n            ),\n            advanced=True,\n            load_from_db=False,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            required=False,\n            show=True,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        StrInput(\n            name=\"ollama_base_url\",\n            display_name=\"Ollama API URL\",\n            info=f\"Endpoint of the Ollama API (Ollama only). Defaults to {DEFAULT_OLLAMA_URL}\",\n            value=DEFAULT_OLLAMA_URL,\n            show=False,\n            real_time_refresh=True,\n        ),\n        MessageInput(\n            name=\"input_value\",\n            display_name=\"Input\",\n            info=\"The input text to send to the model\",\n        ),\n        MultilineInput(\n            name=\"system_message\",\n            display_name=\"System Message\",\n            info=\"A system message that helps set the behavior of the assistant\",\n            advanced=False,\n        ),\n        BoolInput(\n            name=\"stream\",\n            display_name=\"Stream\",\n            info=\"Whether to stream the response\",\n            value=False,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            info=\"Controls randomness in responses\",\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        model = apply_model_overrides(\n            self.model,\n            model_name=getattr(self, \"model_name\", None),\n            provider=getattr(self, \"provider\", None),\n            user_id=self.user_id,\n            get_options=get_language_model_options,\n        )\n        return get_llm(\n            model=model,\n            user_id=self.user_id,\n            api_key=self.api_key,\n            temperature=self.temperature,\n            stream=self.stream,\n            max_tokens=getattr(self, \"max_tokens\", None),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n            ollama_base_url=getattr(self, \"ollama_base_url\", None),\n        )\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None):\n        \"\"\"Dynamically update build config with user-filtered model options.\"\"\"\n        return handle_model_input_update(self, build_config, field_value, field_name)\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input text to send to the model",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": true,
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 1,
+                  "step": 1,
+                  "step_type": "int"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model": {
+                "_input_type": "ModelInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Language Model",
+                "dynamic": false,
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "model_type": "language",
+                "name": "model",
+                "options": [
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6.1-terra"
+                      ]
+                    },
+                    "name": "gpt-6.1-terra",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6.1-sol"
+                      ]
+                    },
+                    "name": "gpt-6.1-sol",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6-luna"
+                      ]
+                    },
+                    "name": "gpt-6-luna",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6-sol"
+                      ]
+                    },
+                    "name": "gpt-6-sol",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-6-astra"
+                      ]
+                    },
+                    "name": "gpt-6-astra",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-5.6"
+                      ]
+                    },
+                    "name": "gpt-5.6",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-5.6-sol"
+                      ]
+                    },
+                    "name": "gpt-5.6-sol",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "gpt-5.1"
+                      ]
+                    },
+                    "name": "gpt-5.1",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning": true,
+                      "reasoning_models": [
+                        "o4-mini"
+                      ]
+                    },
+                    "name": "o4-mini",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "gpt-4o-mini",
+                    "provider": "OpenAI"
+                  }
+                ],
+                "override_skip": false,
+                "placeholder": "Setup Provider",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": [
+                  {
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model"
+                    },
+                    "name": "gpt-4o-mini",
+                    "provider": "OpenAI"
+                  }
+                ]
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Model Name Override",
+                "dynamic": false,
+                "info": "Optional model name to use instead of the selected model. Can be set from a global variable for runtime model selection.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "ollama_base_url": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Ollama API URL",
+                "dynamic": false,
+                "info": "Endpoint of the Ollama API (Ollama only). Defaults to http://localhost:11434",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "ollama_base_url",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "http://localhost:11434"
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "provider": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Provider Override",
+                "dynamic": false,
+                "info": "Optional provider to use with Model Name Override. Leave blank to use the selected model's provider.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "provider",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Whether to stream the response",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "api_editable": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "A system message that helps set the behavior of the assistant",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness in responses",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.1
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "text_output",
+          "showNode": true,
+          "type": "LanguageModelComponent"
+        },
+        "dragging": false,
+        "id": "LanguageModelComponent-BfMmB",
+        "measured": {
+          "height": 371,
+          "width": 320
+        },
+        "position": {
+          "x": 956.8330551004722,
+          "y": -9.389415769339937
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt Template-0Tgii",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "user_request",
+                "task_context"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Mira Status Prompt",
+            "documentation": "https://docs.langflow.org/components-prompts",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "use_double_brackets",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "3d3fd7b8a36f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.models_and_agents.prompt.PromptComponent"
+            },
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "replacement": null,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.prompts.api_utils import process_prompt_template\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.input_mixin import FieldTypes\nfrom lfx.inputs.inputs import DefaultPromptField\nfrom lfx.io import BoolInput, MessageTextInput, Output, PromptInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.template.utils import update_template_values\nfrom lfx.utils.mustache_security import validate_mustache_template\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        BoolInput(\n            name=\"use_double_brackets\",\n            display_name=\"Use Double Brackets\",\n            value=False,\n            advanced=True,\n            info=\"Use {{variable}} syntax instead of {variable}.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            show=False,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        \"\"\"Update the template field type based on the selected mode.\"\"\"\n        if field_name == \"use_double_brackets\":\n            # Change the template field type based on mode\n            is_mustache = field_value is True\n            if is_mustache:\n                build_config[\"template\"][\"type\"] = FieldTypes.MUSTACHE_PROMPT.value\n            else:\n                build_config[\"template\"][\"type\"] = FieldTypes.PROMPT.value\n\n            # Re-process the template to update variables when mode changes\n            template_value = build_config.get(\"template\", {}).get(\"value\", \"\")\n            if template_value:\n                # Ensure custom_fields is properly initialized\n                if \"custom_fields\" not in build_config:\n                    build_config[\"custom_fields\"] = {}\n\n                # Clean up fields from the OLD mode before processing with NEW mode\n                # This ensures we don't keep fields with wrong syntax even if validation fails\n                old_custom_fields = build_config[\"custom_fields\"].get(\"template\", [])\n                for old_field in list(old_custom_fields):\n                    # Remove the field from custom_fields and template\n                    if old_field in old_custom_fields:\n                        old_custom_fields.remove(old_field)\n                    build_config.pop(old_field, None)\n\n                # Try to process template with new mode to add new variables\n                # If validation fails, at least we cleaned up old fields\n                try:\n                    # Validate mustache templates for security\n                    if is_mustache:\n                        validate_mustache_template(template_value)\n\n                    # Re-process template with new mode to add new variables\n                    _ = process_prompt_template(\n                        template=template_value,\n                        name=\"template\",\n                        custom_fields=build_config[\"custom_fields\"],\n                        frontend_node_template=build_config,\n                        is_mustache=is_mustache,\n                    )\n                except ValueError as e:\n                    # If validation fails, we still updated the mode and cleaned old fields\n                    # User will see error when they try to save\n                    logger.debug(f\"Template validation failed during mode switch: {e}\")\n        return build_config\n\n    async def build_prompt(self) -> Message:\n        use_double_brackets = self.use_double_brackets if hasattr(self, \"use_double_brackets\") else False\n        template_format = \"mustache\" if use_double_brackets else \"f-string\"\n        prompt = await Message.from_template_and_variables(template_format=template_format, **self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(prompt_template)\n\n            custom_fields = frontend_node[\"custom_fields\"]\n            frontend_node_template = frontend_node[\"template\"]\n            _ = process_prompt_template(\n                template=prompt_template,\n                name=\"template\",\n                custom_fields=custom_fields,\n                frontend_node_template=frontend_node_template,\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be created\n            logger.debug(f\"Template validation failed in _update_template: {e}\")\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(template)\n\n            # Kept it duplicated for backwards compatibility\n            _ = process_prompt_template(\n                template=template,\n                name=\"template\",\n                custom_fields=frontend_node[\"custom_fields\"],\n                frontend_node_template=frontend_node[\"template\"],\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be updated\n            logger.debug(f\"Template validation failed in update_frontend_node: {e}\")\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "task_context": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "task_context",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "task_context",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "prompt",
+                "value": "You are Mira Status Reporter, an AI-powered project status reporting agent for the AI Adoption Project at ABCDE Ltd.\n\nYour responsibility is to generate accurate, professional, source-grounded project status reports, task inquiries, task listings, and stakeholder updates.\n\nUSER REQUEST:\n{user_request}\n\nTASK BOARD SOURCE CONTEXT:\n{task_context}\n\n==================================================\n0. USER REQUEST SUFFICIENCY CHECK\n==================================================\n\nBefore generating any report, determine whether the user's request provides enough information to identify the intended reporting scope.\n\nA vague statement alone is not sufficient evidence of project progress.\n\nFor example:\n\"Generate a weekly status report for: 'Things are going fine.'\"\n\nThis request does not provide a specific project, sprint, reporting period, task status, or sufficient project context.\n\nFor insufficient-information requests:\n\n- Set status to \"INSUFFICIENT_INFORMATION\".\n- Do not generate a project or sprint status report.\n- Do not assume that the user is referring to ABCDE Ltd. or Sprint 3.\n- Do not use available task board data to fill in an unspecified request.\n- Set report_scope to \"Unspecified\".\n- Preserve the requested report_type when identifiable.\n- Set tasks to an empty array.\n- Set blockers to an empty array.\n- Set overdue_task_ids to an empty array.\n- Set recommendations to an empty array.\n- Set data_quality_notes to an empty array.\n- Set sources_used to an empty array.\n- Set all task_counts values to zero as placeholders, not verified task counts.\n- Explain in executive_summary that the information is insufficient.\n- Populate missing_information with the details needed to generate an accurate report.\n- Request the project or task board, reporting period or sprint, and relevant progress information.\n- Do not invent tasks, progress, statuses, blockers, or percentages.\n- Return the standard JSON structure with all 13 required fields.\n\nThis rule takes precedence over instructions to generate a report when source data is available.\n\nA request that explicitly identifies ABCDE Ltd., a specific sprint, a specific task, or requests a project-wide summary using the supplied task board is sufficiently scoped.\n\nDo not reject a clearly scoped request merely because a reporting date is unavailable. Instead, describe the source information as historical where appropriate.\n\n==================================================\n1. SOURCE GROUNDING\n==================================================\n\nUse only the supplied task_context for factual information about tasks, statuses, owners, priorities, sprints, due dates, and counts.\n\nNever invent task information.\n\nAlways set project_name to:\nAI Adoption Project at ABCDE Ltd.\n\nTreat the CSV as historical source data. It is not verified live project information.\n\nIf the source has no snapshot timestamp, do not describe it as the latest snapshot, latest update, or current verified status.\n\nClearly distinguish source facts from recommendations and unsupported assumptions.\n\nCRITICAL SOURCE FRESHNESS LANGUAGE (ALL SUCCESS REPORTS):\n- When task_context does not provide a verified source snapshot timestamp, NEVER introduce the report with \"As of the latest update\", \"As of the latest snapshot\", \"In the latest update\", \"Currently\", \"At present\", \"As of today\", or other language implying that the source is recent or live.\n- Instead, begin source-based progress summaries with wording such as \"According to the supplied task board CSV,\" or \"The supplied task board records\". Describe statuses as recorded in the CSV, not as independently verified current progress.\n- For a whole-project status report, use this pattern when appropriate: \"According to the supplied task board CSV, 5 tasks are marked Done, 3 In Progress, 1 Blocked, and 16 To Do. These are recorded source statuses, not verified current project statuses.\" Use the actual selected_counts rather than assuming these example numbers for other scopes.\n- Do not infer freshness from task due dates, status labels, the current date, or the user's request.\n- This rule applies to executive_summary, stakeholder email text, and all other narrative fields; preserve the existing source, scope, and task-coverage rules.\n\n==================================================\n2. REPORT SCOPE\n==================================================\n\nDetermine the report scope from task_context, provided the user request passes the sufficiency check in Section 0.\n\nFor sprint-specific requests:\n- Use only selected_tasks.\n- Use selected_counts for all counts.\n- Use selected_task_count for the total.\n- Never use total_source_tasks as sprint total.\n- Never include whole-project counts unless explicitly requested.\n\nFor single-task requests:\n- Report only the requested task.\n- Focus on its status, owner, priority, sprint, due date, and documented blocker.\n- Do not introduce unrelated project statistics.\n\nFor whole-project requests:\n- Use the complete selected project scope.\n- Use selected_counts.\n- Use overall_counts only when relevant.\n\nNever combine counts from different scopes.\n\n==================================================\n3. REQUEST INTENT\n==================================================\n\nIdentify the request type using the rules below.\n\nIMPORTANT — TASK LISTING VS TASK COUNTS\n\nIf the user asks WHICH tasks are blocked, completed, in progress, or to do, this is a task-listing request, NOT a counts-only request.\n\nFor task-listing requests:\n- Set report_type to \"Project Status Report\" unless the user explicitly requests a more specific report type.\n- Include every task from selected_tasks exactly once, as required by the validator.\n- Include every documented blocker corresponding to a blocked task in selected_tasks.\n- Copy selected_counts exactly into task_counts.\n- Directly identify the tasks matching the requested status in executive_summary.\n- Never classify a \"which tasks\" request as \"Task Status Counts\".\n- Do not invent task IDs, names, owners, statuses, or blockers.\n- If the requested status has no matching tasks, state that no matching tasks are recorded in the selected source scope.\n\nA. SINGLE TASK STATUS\n\nIf the user asks for the status of a specific task:\n\nSet report_type to:\nTask Status Inquiry\n\nInclude the selected task's exact source details.\n\nExplain its documented blocker if applicable.\n\nKeep the narrative concise.\n\nB. TASK STATUS COUNTS\n\nIf the user asks only for numerical task counts or a status breakdown without requesting individual task identities:\n\nSet report_type to:\nTask Status Counts\n\nCopy selected_counts exactly into task_counts.\n\nSet tasks to an empty array.\nSet blockers to an empty array.\nSet overdue_task_ids to an empty array.\n\nSummarize only the verified counts.\n\nDo not classify requests asking \"which tasks\", \"list tasks\", \"identify tasks\", or \"show blocked tasks\" as counts-only requests.\n\nC. WEEKLY STATUS REPORT\n\nIf the user requests a weekly status report:\n\nSet report_type to:\nWeekly Status Report\n\nWrite a concise professional report, not an email.\n\nInclude the selected scope's total task count, completed tasks, in-progress tasks, blocked tasks, and to-do tasks.\n\nUse only the selected task data.\n\nDo not use email greetings or sign-offs.\n\nDo not claim the project is on track, delayed, ahead of schedule, or healthy without supporting milestone evidence.\n\nIf the request fails the sufficiency check in Section 0, return INSUFFICIENT_INFORMATION instead of generating a weekly report.\n\nD. STAKEHOLDER UPDATE EMAIL\n\nIf the user requests a stakeholder email:\n\nSet report_type to:\nStakeholder Update Email\n\nWrite the actual email in executive_summary.\n\nBegin exactly with:\nDear Stakeholders,\n\nEnd exactly with:\nBest regards,\nProject Management Team\n\nUse clear, concise, professional language.\n\nDiscuss only the requested scope.\n\nDo not include unrelated whole-project counts or internal data discrepancies in the email.\n\nCRITICAL STAKEHOLDER EMAIL EVIDENCE RULES:\n- Write a factual update based on the recorded task board, not a live progress assessment.\n- Never use phrases such as \"As of now\", \"Currently\", \"We have made significant strides\", \"We are on track\", \"on schedule\", \"progressing well\", or \"will be completed by the due date\" unless independently verified evidence supporting that claim is explicitly supplied in task_context.\n- A task's status of Done or In Progress and its due date do NOT establish overall schedule health or predict timely completion.\n- Begin the email body with neutral language such as \"Please find the Sprint 2 task status summary based on the supplied task board.\" Adapt the sprint number to the selected scope.\n- State counts as recorded in the supplied task board, and make clear the source statuses are not verified live statuses when no snapshot timestamp is available.\n- Refer to due dates as recorded or planned due dates; do not promise completion by those dates.\n- Do not invent activity descriptions, achievements, or completion forecasts beyond source-supported fields.\n- Before returning the JSON, reread the complete executive_summary and remove any unsupported freshness, project-health, progress-quality, or future-completion claims.\n\nE. PROJECT STATUS REPORT\n\nFor other project reporting requests, including task-listing requests:\n\nSet report_type to:\nProject Status Report\n\nGenerate a factual, source-grounded report using the selected scope.\n\nIf the user explicitly requests a daily, monthly, or sprint report, identify that reporting type accordingly without inventing a reporting frequency.\n\nPreserve report_scope as \"Project\" for project-wide requests.\n\n==================================================\n4. TASK COUNTS\n==================================================\n\nFor sufficiently scoped requests with available data, always copy selected_counts into task_counts.\n\ntask_counts must contain four numeric fields:\n\nDone\nIn Progress\nBlocked\nTo Do\n\nFor a counts-only request:\n- tasks must be an empty array.\n- blockers must be an empty array.\n- overdue_task_ids must be an empty array.\n\nFor other successful requests:\n- Include every task from selected_tasks.\n- Include each task exactly once.\n- Never include tasks outside selected_tasks.\n\nEach task must contain:\n\ntask_id\ntask_name\nstatus\nassignee\npriority\nsprint\ndue_date\n\nPreserve these fields exactly as supplied.\n\nFor insufficient-information responses, set all four counts to zero as placeholders, not actual project statistics.\n\n==================================================\n5. BLOCKERS\n==================================================\n\nFor every selected task with status Blocked, include a corresponding object in blockers.\n\nEach blocker object must contain:\n\ntask_id\n\nDo not invent blocked tasks.\n\nFor counts-only requests, blockers must remain an empty array.\n\nFor task-listing requests involving blocked tasks, ensure that all blocked tasks in selected_tasks are represented in both tasks and blockers.\n\nFor insufficient-information responses, blockers must remain an empty array.\n\n==================================================\n6. OVERDUE TASKS\n==================================================\n\nUse overdue_task_ids supplied by task_context.\n\nIf report_as_of_date is null:\n- Set overdue_task_ids to an empty array.\n- Do not independently calculate overdue tasks.\n- Do not call tasks overdue based only on their historical due dates.\n\nIf report_as_of_date is supplied:\n- Copy the processor-provided overdue IDs.\n- Do not invent additional overdue tasks.\n\nFor insufficient-information responses, overdue_task_ids must remain an empty array.\n\n==================================================\n7. DATA QUALITY\n==================================================\n\nPreserve relevant source observations in data_quality_notes.\n\nIf the CSV has no snapshot timestamp, state that the task statuses are historical source values, not verified live statuses.\n\nKeep source-level discrepancies in data_quality_notes.\n\nMention discrepancies in executive_summary only when directly relevant to the user request.\n\nDo not automatically discuss differences between the assignment narrative and CSV in sprint reports or stakeholder emails.\n\nNever describe an undated source as the latest snapshot or latest update.\n\nFor insufficient-information requests that do not use the task board, set data_quality_notes to an empty array.\n\n==================================================\n8. SOURCE UNAVAILABLE\n==================================================\n\nIf task_context.data_status is:\n\nSOURCE_UNAVAILABLE\nINVALID_SOURCE\nREQUESTED_SCOPE_NOT_FOUND\n\nSet status to:\nINSUFFICIENT_INFORMATION\n\nSet tasks to an empty array.\nSet blockers to an empty array.\nSet overdue_task_ids to an empty array.\n\nSet all task_counts values to zero:\n\nDone = 0\nIn Progress = 0\nBlocked = 0\nTo Do = 0\n\nExplain the unavailable or invalid data in missing_information.\n\nThese zero counts are placeholders, not verified task statistics.\n\nDo not fabricate task information.\n\nThe insufficient-user-request rule in Section 0 applies independently of source availability.\n\n==================================================\n9. EXECUTIVE SUMMARY QUALITY\n==================================================\n\nThe executive_summary must directly answer the user's request.\n\nFor task-listing requests:\n- Identify the requested matching tasks by their exact source task IDs and names.\n- Do not provide only a count when task identities are requested.\n- Do not describe historical source statuses as verified current statuses.\n\nFor sprint-specific reports:\n- Describe only the requested sprint.\n- Use selected_task_count as the total.\n- Use selected_counts for status breakdowns.\n- Never introduce total_source_tasks as the sprint task total.\n\nFor single-task inquiries:\n- Focus on the requested task.\n- Do not repeat unnecessary count breakdowns.\n\nFor stakeholder emails:\n- Use the required greeting and sign-off.\n- Write a complete, professional email.\n- Do not include unrelated project totals.\n\nFor insufficient-information requests:\n- Explain which details are missing.\n- Do not generate unsupported project progress.\n- Do not invent tasks, milestones, status changes, or percentages.\n- Ask for the information necessary to prepare the requested report.\n\nAvoid unsupported statements such as:\n- The project is on track.\n- We have made significant strides.\n- As of the latest snapshot.\n- The project is progressing successfully.\n\nUse neutral, evidence-based language.\n\n==================================================\n10. OUTPUT FORMAT\n==================================================\n\nReturn exactly one valid JSON object.\n\nDo not use Markdown code fences.\nDo not include explanations outside JSON.\n\nThe JSON object must contain these fields:\n\nstatus\nreport_type\nproject_name\nreport_scope\nexecutive_summary\ntask_counts\ntasks\nblockers\noverdue_task_ids\nrecommendations\ndata_quality_notes\nmissing_information\nsources_used\n\nField requirements:\n\nstatus:\nString. Either SUCCESS or INSUFFICIENT_INFORMATION.\n\nreport_type:\nString identifying the request type.\n\nproject_name:\nString. Always use:\nAI Adoption Project at ABCDE Ltd.\n\nreport_scope:\nString identifying the selected scope.\n\nexecutive_summary:\nString containing the requested report, task explanation, task listing, or stakeholder email.\n\ntask_counts:\nJSON object containing numeric values for Done, In Progress, Blocked, and To Do.\n\ntasks:\nJSON array of task objects.\n\nblockers:\nJSON array of objects containing task_id.\n\noverdue_task_ids:\nJSON array of task ID strings.\n\nrecommendations:\nJSON array. Include only clearly identified recommendations, not invented source facts.\n\ndata_quality_notes:\nJSON array of strings.\n\nmissing_information:\nJSON array of strings.\n\nsources_used:\nJSON array of strings containing the actual source filename when available.\n\nFor available data and a sufficiently specific user request:\n- Set status to SUCCESS.\n- Use the exact selected task data.\n- Include the source filename.\n- Follow the request-specific rules.\n\nFor insufficient user information:\n- Set status to INSUFFICIENT_INFORMATION.\n- Preserve the required JSON structure.\n- Set tasks, blockers, overdue_task_ids, recommendations, data_quality_notes, and sources_used to empty arrays.\n- Set all task_counts values to zero as placeholders.\n- Explain missing details in missing_information.\n- Do not invent project information.\n\nFor unavailable or invalid data:\n- Set status to INSUFFICIENT_INFORMATION.\n- Explain the missing source.\n- Do not invent information.\n\n==================================================\n11. FINAL VALIDATION CHECK\n==================================================\n\nBefore responding, verify:\n\n1. The report scope matches the user request.\n2. All counts match selected_counts for successful, sufficiently scoped requests.\n3. Task IDs come only from selected_tasks.\n4. Task fields match the source exactly.\n5. Blocked tasks are represented correctly.\n6. No unrelated project counts appear.\n7. No unsupported progress claims appear.\n8. Source freshness is represented honestly.\n9. The response is valid JSON.\n10. No extra text appears outside the JSON.\n11. A request for task identities is not classified as a counts-only request.\n12. For a successful task-listing request, tasks includes every selected task exactly once and blockers includes every selected blocked task.\n13. A vague user request does not generate a fabricated status report.\n14. INSUFFICIENT_INFORMATION responses contain no invented task data.\n15. An available CSV does not override the insufficient-request rule.\n\n==================================================\n12. CRITICAL JSON COMPLETENESS RULE\n==================================================\n\nEvery response MUST contain all 13 required top-level fields, without exception.\n\nFor an insufficient-information response:\n- \"status\" MUST be exactly \"INSUFFICIENT_INFORMATION\".\n- \"data_quality_notes\" MUST be present and set to [].\n- Never omit status or data_quality_notes.\n- Include all other required fields even when their values are empty.\n\nBefore returning JSON, explicitly verify that the object contains:\n\nstatus\nreport_type\nproject_name\nreport_scope\nexecutive_summary\ntask_counts\ntasks\nblockers\noverdue_task_ids\nrecommendations\ndata_quality_notes\nmissing_information\nsources_used\n\nIf any field is missing, add it before returning the JSON object.\n\nReturn the JSON object only."
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "use_double_brackets": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "api_editable": false,
+                "display_name": "Use Double Brackets",
+                "dynamic": false,
+                "info": "Use {{variable}} syntax instead of {variable}.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_double_brackets",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "user_request": {
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "user_request",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "user_request",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt Template"
+        },
+        "dragging": false,
+        "id": "Prompt Template-0Tgii",
+        "measured": {
+          "height": 429,
+          "width": 320
+        },
+        "position": {
+          "x": 555.9066854773632,
+          "y": 332.60917756910163
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-i0jgr",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Validates grounded task status responses.",
+            "display_name": "Mira Status JSON Validator",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "model_response",
+              "task_context",
+              "user_request"
+            ],
+            "frozen": false,
+            "icon": "shield-check",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "52bbe9af7f16",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "1.11.0"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "custom_components.mira_status_json_validator"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validated Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "validate_json",
+                "name": "validated_response",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "\nimport json\nimport re\n\nfrom langflow.custom import Component\nfrom langflow.io import MessageTextInput, Output\nfrom langflow.schema.message import Message\n\n\nclass MiraStatusJSONValidator(Component):\n    display_name = \"Mira Status JSON Validator\"\n    description = \"Validates grounded task status responses.\"\n    icon = \"shield-check\"\n    name = \"MiraStatusJSONValidator\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"model_response\",\n            display_name=\"Model Response\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"task_context\",\n            display_name=\"Task Context\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"user_request\",\n            display_name=\"User Request\",\n            required=True,\n        ),\n    ]\n\n    outputs = [\n        Output(\n            name=\"validated_response\",\n            display_name=\"Validated Response\",\n            method=\"validate_json\",\n        )\n    ]\n\n    PROJECT = \"AI Adoption Project at ABCDE Ltd.\"\n    STATUSES = (\"Done\", \"In Progress\", \"Blocked\", \"To Do\")\n    TASK_FIELDS = (\n        \"task_id\", \"task_name\", \"status\",\n        \"assignee\", \"priority\", \"sprint\", \"due_date\",\n    )\n    REQUIRED = (\n        \"status\", \"report_type\", \"project_name\",\n        \"report_scope\", \"executive_summary\",\n        \"task_counts\", \"tasks\", \"blockers\",\n        \"overdue_task_ids\", \"recommendations\",\n        \"data_quality_notes\", \"missing_information\",\n        \"sources_used\",\n    )\n    ARRAYS = (\n        \"tasks\", \"blockers\", \"overdue_task_ids\",\n        \"recommendations\", \"data_quality_notes\",\n        \"missing_information\", \"sources_used\",\n    )\n\n    def _text(self, value):\n        return str(getattr(value, \"text\", value) or \"\")\n\n    def _parse(self, value):\n        raw = self._text(value).strip()\n        raw = re.sub(\n            r\"^```(?:json)?\\s*\", \"\",\n            raw,\n            flags=re.IGNORECASE,\n        )\n        raw = re.sub(r\"\\s*```$\", \"\", raw)\n        return json.loads(raw)\n\n    def _intent(self, question):\n        q = question.lower()\n\n        if re.search(r\"\\be-?mail\\b\", q):\n            return \"email\"\n\n        # Counts-only intent takes precedence over status keywords.\n        # E.g. \"How many tasks are Done, In Progress, Blocked, and To Do?\"\n        if re.search(\n            r\"\\b(counts?|how many|number of tasks)\\b\", q\n        ) and not re.search(\n            r\"\\b(list|show|details|each task|task list|which tasks)\\b\", q\n        ):\n            return \"counts\"\n\n        # Focused blocked-task listing, not a count or general report.\n        if re.search(r\"\\b(blocked|blockers|blocking)\\b\", q) and re.search(\n            r\"\\b(which|list|show|identify|blocked tasks|blockers)\\b\", q\n        ) and not re.search(r\"\\b(report|weekly|e-?mail)\\b\", q):\n            return \"blocked_tasks\"\n\n        if re.search(\n            r\"\\bT\\d{3}\\b\", question, re.IGNORECASE\n        ) and re.search(\n            r\"\\b(status of|task status)\\b\", q\n        ):\n            return \"task_inquiry\"\n\n        if \"weekly\" in q and \"report\" in q:\n            return \"weekly_report\"\n\n        return \"general_report\"\n\n    def _check_summary(\n        self, summary, context, intent, errors\n    ):\n        text = summary.lower()\n\n        # An undated source cannot be called the\n        # latest verified snapshot.\n        if context.get(\"snapshot_date\") == \"NOT_PROVIDED\":\n            if re.search(\n                r\"\\b(latest|current|most recent)\\s+\"\n                r\"(snapshot|update|review)\\b\",\n                text,\n            ):\n                errors.append(\n                    \"Summary implies a recent snapshot \"\n                    \"without a source timestamp\"\n                )\n\n        # Task statuses alone cannot establish\n        # schedule health.\n        if re.search(\n            r\"\\b(on track|ahead of schedule|\"\n            r\"behind schedule|project is healthy|\"\n            r\"significant strides)\\b\",\n            text,\n        ):\n            errors.append(\n                \"Unsupported project progress assessment\"\n            )\n\n        if context.get(\"scope_type\") not in (\n            \"sprint\", \"task\"\n        ):\n            return\n\n        # Detect the specific scope-mixing failure\n        # previously observed in T5 and T12.\n        source_total = context.get(\n            \"total_source_tasks\"\n        )\n        selected_total = context.get(\n            \"selected_task_count\"\n        )\n\n        if (\n            isinstance(source_total, int)\n            and source_total != selected_total\n            and re.search(\n                rf\"\\b{source_total}\\s+tasks?\\b\",\n                text,\n            )\n        ):\n            errors.append(\n                \"Scoped summary contains \"\n                \"whole-project task total\"\n            )\n\n        # Reject known whole-project count phrases\n        # when they conflict with selected counts.\n        selected_counts = context.get(\n            \"selected_counts\", {}\n        )\n\n        project_counts = {\n            \"completed\": 5,\n            \"in progress\": 3,\n            \"blocked\": 1,\n            \"to do\": 16,\n        }\n\n        selected_lookup = {\n            \"completed\": selected_counts.get(\"Done\", 0),\n            \"in progress\": selected_counts.get(\n                \"In Progress\", 0\n            ),\n            \"blocked\": selected_counts.get(\n                \"Blocked\", 0\n            ),\n            \"to do\": selected_counts.get(\"To Do\", 0),\n        }\n\n        # Only reject when the narrative uses a\n        # conflicting whole-project value.\n        for label, number in project_counts.items():\n            if number == selected_lookup[label]:\n                continue\n\n            if re.search(\n                rf\"\\b{number}\\s+(?:tasks?\\s+)?\"\n                rf\"(?:are\\s+|were\\s+|still\\s+)?\"\n                rf\"{re.escape(label)}\\b\",\n                text,\n            ):\n                errors.append(\n                    \"Possible project-wide count in \"\n                    \"scoped summary: \" + label\n                )\n\n        # A scoped report should not bring in the\n        # unrelated narrative-vs-CSV discrepancy.\n        if re.search(\n            r\"\\b(narrative|discrepancy)\\b\",\n            text,\n        ):\n            errors.append(\n                \"Scoped summary includes unrelated \"\n                \"whole-project data-quality discussion\"\n            )\n\n    def validate_json(self) -> Message:\n        errors = []\n        data = {}\n\n        try:\n            data = self._parse(self.model_response)\n            context = self._parse(self.task_context)\n            question = self._text(self.user_request)\n\n            if not isinstance(data, dict):\n                raise ValueError(\n                    \"Model response must be a JSON object\"\n                )\n\n            if not isinstance(context, dict):\n                raise ValueError(\n                    \"Task context must be a JSON object\"\n                )\n\n            for field in self.REQUIRED:\n                if field not in data:\n                    errors.append(\n                        \"Missing field: \" + field\n                    )\n\n            for field in self.ARRAYS:\n                if not isinstance(data.get(field), list):\n                    errors.append(\n                        field + \" must be an array\"\n                    )\n\n            if not isinstance(\n                data.get(\"task_counts\"), dict\n            ):\n                errors.append(\n                    \"task_counts must be an object\"\n                )\n\n            if data.get(\"status\") not in (\n                \"SUCCESS\",\n                \"INSUFFICIENT_INFORMATION\",\n            ):\n                errors.append(\"Invalid status\")\n\n            def array(name):\n                value = data.get(name)\n                return value if isinstance(\n                    value, list\n                ) else []\n\n            tasks = array(\"tasks\")\n            blockers = array(\"blockers\")\n            overdue = array(\"overdue_task_ids\")\n            sources = array(\"sources_used\")\n            missing = array(\"missing_information\")\n            counts = data.get(\"task_counts\")\n            if not isinstance(counts, dict):\n                counts = {}\n\n            intent = self._intent(question)\n            source_status = context.get(\"data_status\")\n\n            # An insufficiently specified request must not be converted\n            # into a successful report merely because a CSV is available.\n            # This rule is intentionally narrow: it applies to the official\n            # vague weekly-report case and similarly empty reporting briefs.\n            vague_request = bool(re.search(\n                r\"\\bthings are going fine\\b\", question, re.IGNORECASE\n            )) and not bool(re.search(\n                r\"\\b(sprint\\s*\\d+|T\\d{3}|ABCDE|task board)\\b\",\n                question, re.IGNORECASE\n            ))\n\n            if vague_request:\n                if data.get(\"status\") != \"INSUFFICIENT_INFORMATION\":\n                    errors.append(\n                        \"Vague request requires INSUFFICIENT_INFORMATION\"\n                    )\n                if data.get(\"report_type\") != \"Weekly Status Report\":\n                    errors.append(\"Incorrect weekly report type\")\n                if data.get(\"report_scope\") != \"Unspecified\":\n                    errors.append(\"Vague request requires unspecified scope\")\n                if data.get(\"project_name\") != self.PROJECT:\n                    errors.append(\"Incorrect project name\")\n                if tasks or blockers or overdue:\n                    errors.append(\n                        \"Vague request must not include task-related records\"\n                    )\n                if any(counts.get(key) != 0 for key in self.STATUSES):\n                    errors.append(\n                        \"Vague request requires zero placeholder counts\"\n                    )\n                if sources:\n                    errors.append(\n                        \"Vague request must not claim a source was used\"\n                    )\n                if not missing:\n                    errors.append(\n                        \"Vague request must identify missing information\"\n                    )\n                if not str(data.get(\"executive_summary\") or \"\").strip():\n                    errors.append(\"Vague request requires an explanation\")\n\n            elif source_status != \"AVAILABLE\":\n                if data.get(\"status\") != (\n                    \"INSUFFICIENT_INFORMATION\"\n                ):\n                    errors.append(\n                        \"Missing or invalid source requires \"\n                        \"INSUFFICIENT_INFORMATION\"\n                    )\n\n                if tasks or blockers or overdue:\n                    errors.append(\n                        \"Unavailable source requires \"\n                        \"empty task-related arrays\"\n                    )\n\n                if not missing:\n                    errors.append(\n                        \"Explain unavailable source \"\n                        \"in missing_information\"\n                    )\n\n                if any(\n                    counts.get(key) not in (0, None)\n                    for key in self.STATUSES\n                ):\n                    errors.append(\n                        \"Unavailable source cannot claim \"\n                        \"verified nonzero task counts\"\n                    )\n\n            else:\n                if data.get(\"status\") != \"SUCCESS\":\n                    errors.append(\n                        \"Available source requires SUCCESS\"\n                    )\n\n                if data.get(\"project_name\") != self.PROJECT:\n                    errors.append(\n                        \"Incorrect project name\"\n                    )\n\n                selected = context.get(\n                    \"selected_tasks\", []\n                )\n\n                if not isinstance(selected, list):\n                    raise ValueError(\n                        \"Invalid selected_tasks context\"\n                    )\n\n                source_by_id = {\n                    item[\"task_id\"]: item\n                    for item in selected\n                    if isinstance(item, dict)\n                    and isinstance(\n                        item.get(\"task_id\"), str\n                    )\n                }\n\n                expected_counts = context.get(\n                    \"selected_counts\", {}\n                )\n\n                if not isinstance(\n                    expected_counts, dict\n                ):\n                    raise ValueError(\n                        \"Invalid selected_counts context\"\n                    )\n\n                for key in self.STATUSES:\n                    if counts.get(key) != (\n                        expected_counts.get(key, 0)\n                    ):\n                        errors.append(\n                            \"Count mismatch for \" + key\n                        )\n\n                reported_ids = []\n\n                for task in tasks:\n                    if not isinstance(task, dict):\n                        errors.append(\n                            \"Task must be an object\"\n                        )\n                        continue\n\n                    task_id = task.get(\"task_id\")\n\n                    if not isinstance(task_id, str):\n                        errors.append(\n                            \"Task ID must be a string\"\n                        )\n                        continue\n\n                    reported_ids.append(task_id)\n                    original = source_by_id.get(task_id)\n\n                    if original is None:\n                        errors.append(\n                            \"Out-of-scope task: \" + task_id\n                        )\n                        continue\n\n                    for field in self.TASK_FIELDS:\n                        if task.get(field) != (\n                            original.get(field)\n                        ):\n                            errors.append(\n                                task_id + \": mismatch in \"\n                                + field\n                            )\n\n                if len(reported_ids) != len(\n                    set(reported_ids)\n                ):\n                    errors.append(\n                        \"Duplicate task IDs\"\n                    )\n\n                if intent == \"counts\":\n                    if tasks:\n                        errors.append(\n                            \"Counts-only request requires \"\n                            \"tasks=[]\"\n                        )\n                elif intent == \"blocked_tasks\":\n                    expected_blocked_ids = {\n                        task_id for task_id, item in source_by_id.items()\n                        if item.get(\"status\") == \"Blocked\"\n                    }\n                    if set(reported_ids) != expected_blocked_ids:\n                        errors.append(\n                            \"Blocked-task task coverage mismatch\"\n                        )\n                elif set(reported_ids) != set(\n                    source_by_id\n                ):\n                    errors.append(\n                        \"Task coverage mismatch\"\n                    )\n\n                expected_blockers = {\n                    item[\"task_id\"]\n                    for item in selected\n                    if isinstance(item, dict)\n                    and item.get(\"status\") == \"Blocked\"\n                    and isinstance(\n                        item.get(\"task_id\"), str\n                    )\n                }\n\n                blocker_ids = []\n\n                for blocker in blockers:\n                    if not isinstance(blocker, dict):\n                        errors.append(\n                            \"Blocker must be an object\"\n                        )\n                        continue\n\n                    task_id = blocker.get(\"task_id\")\n                    if not isinstance(task_id, str):\n                        errors.append(\n                            \"Blocker must have a task_id\"\n                        )\n                    else:\n                        blocker_ids.append(task_id)\n\n                if len(blocker_ids) != len(\n                    set(blocker_ids)\n                ):\n                    errors.append(\n                        \"Duplicate blocker IDs\"\n                    )\n\n                if intent == \"counts\":\n                    if blockers:\n                        errors.append(\n                            \"Counts-only request requires \"\n                            \"blockers=[]\"\n                        )\n                elif set(blocker_ids) != (\n                    expected_blockers\n                ):\n                    errors.append(\n                        \"Blocked-task coverage mismatch\"\n                    )\n\n                expected_overdue = (\n                    context.get(\"overdue_task_ids\")\n                    or []\n                )\n\n                if intent == \"counts\":\n                    if overdue:\n                        errors.append(\n                            \"Counts-only request requires \"\n                            \"overdue_task_ids=[]\"\n                        )\n                elif (\n                    not all(\n                        isinstance(x, str)\n                        for x in overdue\n                    )\n                    or len(overdue) != len(\n                        set(overdue)\n                    )\n                    or set(overdue) != set(\n                        expected_overdue\n                    )\n                ):\n                    errors.append(\n                        \"Overdue task IDs mismatch\"\n                    )\n\n                if context.get(\n                    \"source_file\"\n                ) not in sources:\n                    errors.append(\n                        \"Source file missing from \"\n                        \"sources_used\"\n                    )\n\n                summary = str(\n                    data.get(\"executive_summary\")\n                    or \"\"\n                ).strip()\n\n                report_type = data.get(\n                    \"report_type\"\n                )\n\n                if intent == \"email\":\n                    if report_type != (\n                        \"Stakeholder Update Email\"\n                    ):\n                        errors.append(\n                            \"Incorrect email report type\"\n                        )\n\n                    if not summary.startswith(\n                        \"Dear Stakeholders,\"\n                    ):\n                        errors.append(\n                            \"Email missing greeting\"\n                        )\n\n                    if \"Best regards,\" not in summary:\n                        errors.append(\n                            \"Email missing sign-off\"\n                        )\n\n                elif intent == \"counts\":\n                    if report_type != (\n                        \"Task Status Counts\"\n                    ):\n                        errors.append(\n                            \"Incorrect counts report type\"\n                        )\n\n                elif intent == \"task_inquiry\":\n                    if report_type != (\n                        \"Task Status Inquiry\"\n                    ):\n                        errors.append(\n                            \"Incorrect task inquiry type\"\n                        )\n\n                elif intent == \"weekly_report\":\n                    if report_type != (\n                        \"Weekly Status Report\"\n                    ):\n                        errors.append(\n                            \"Incorrect weekly report type\"\n                        )\n\n                    if re.search(\n                        r\"Dear Stakeholders|\"\n                        r\"Best regards|\\[Your Name\\]\",\n                        summary,\n                        re.IGNORECASE,\n                    ):\n                        errors.append(\n                            \"Weekly report uses \"\n                            \"email formatting\"\n                        )\n\n                elif intent in (\"general_report\", \"blocked_tasks\"):\n                    if report_type != \"Project Status Report\":\n                        errors.append(\n                            \"Incorrect general report type\"\n                        )\n\n                self._check_summary(\n                    summary, context, intent, errors\n                )\n\n            result = {\n                \"validation_status\": (\n                    \"PASS\" if not errors else \"FAIL\"\n                ),\n                \"validation_errors\": errors,\n                \"validated_data\": data,\n            }\n\n        except Exception as exc:\n            result = {\n                \"validation_status\": \"FAIL\",\n                \"validation_errors\": [\n                    \"Validator error: \" + str(exc)\n                ],\n                \"validated_data\": data,\n            }\n\n        self.status = result[\"validation_status\"]\n\n        return Message(\n            text=json.dumps(\n                result,\n                indent=2,\n                ensure_ascii=False,\n            )\n        )\n"
+              },
+              "model_response": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Model Response",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_response",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "task_context": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "Task Context",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "task_context",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "user_request": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "User Request",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "user_request",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "MiraStatusJSONValidator"
+        },
+        "dragging": false,
+        "id": "CustomComponent-i0jgr",
+        "measured": {
+          "height": 371,
+          "width": 320
+        },
+        "position": {
+          "x": 1390.0680551574321,
+          "y": 339.2826261020726
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-fGmmP",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Reads, validates and scopes project task data.",
+            "display_name": "Mira Status Task Processor",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "csv_path",
+              "user_request",
+              "as_of_date"
+            ],
+            "frozen": false,
+            "icon": "file-spreadsheet",
+            "legacy": false,
+            "lf_version": "1.11.0",
+            "metadata": {
+              "code_hash": "d441ed745964",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "1.11.0"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "custom_components.mira_status_task_processor"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Task Context",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "process_tasks",
+                "name": "task_context",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "as_of_date": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "As-of Date (YYYY-MM-DD, optional)",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "as_of_date",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "api_editable": false,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "\r\nimport csv\r\nimport json\r\nimport re\r\nfrom collections import Counter\r\nfrom datetime import date\r\nfrom pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MessageTextInput, Output\r\nfrom langflow.schema.message import Message\r\n\r\n\r\nclass MiraStatusTaskProcessor(Component):\r\n    display_name = \"Mira Status Task Processor\"\r\n    description = \"Reads, validates and scopes project task data.\"\r\n    icon = \"file-spreadsheet\"\r\n    name = \"MiraStatusTaskProcessor\"\r\n\r\n    inputs = [\r\n        MessageTextInput(\r\n            name=\"csv_path\",\r\n            display_name=\"CSV File Path\",\r\n            required=True,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"user_request\",\r\n            display_name=\"User Request\",\r\n            required=True,\r\n        ),\r\n        MessageTextInput(\r\n            name=\"as_of_date\",\r\n            display_name=\"As-of Date (YYYY-MM-DD, optional)\",\r\n            required=False,\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(\r\n            name=\"task_context\",\r\n            display_name=\"Task Context\",\r\n            method=\"process_tasks\",\r\n        )\r\n    ]\r\n\r\n    COLUMNS = (\r\n        \"task_id\", \"task_name\", \"status\", \"assignee\",\r\n        \"priority\", \"sprint\", \"due_date\",\r\n        \"labels\", \"description\",\r\n    )\r\n\r\n    STATUSES = (\"Done\", \"In Progress\", \"Blocked\", \"To Do\")\r\n\r\n    def _text(self, value):\r\n        return str(getattr(value, \"text\", value) or \"\").strip()\r\n\r\n    def _counts(self, tasks):\r\n        counted = Counter(\r\n            task[\"status\"] for task in tasks\r\n        )\r\n        return {\r\n            status: counted.get(status, 0)\r\n            for status in self.STATUSES\r\n        }\r\n\r\n    def _message(self, data):\r\n        return Message(\r\n            text=json.dumps(\r\n                data,\r\n                indent=2,\r\n                ensure_ascii=False,\r\n            )\r\n        )\r\n\r\n    def process_tasks(self) -> Message:\r\n        path_text = self._text(self.csv_path)\r\n        request = self._text(self.user_request)\r\n        date_text = self._text(self.as_of_date)\r\n\r\n        path = Path(path_text) if path_text else None\r\n\r\n        if path is None or not path.is_file():\r\n            return self._message({\r\n                \"data_status\": \"SOURCE_UNAVAILABLE\",\r\n                \"error\": \"Task board CSV not found at configured path\",\r\n                \"selected_tasks\": [],\r\n                \"selected_counts\": self._counts([]),\r\n                \"tasks\": [],\r\n            })\r\n\r\n        try:\r\n            as_of = (\r\n                date.fromisoformat(date_text)\r\n                if date_text\r\n                else None\r\n            )\r\n\r\n            with path.open(\r\n                \"r\", encoding=\"utf-8-sig\", newline=\"\"\r\n            ) as file:\r\n                reader = csv.DictReader(file)\r\n\r\n                if not reader.fieldnames:\r\n                    raise ValueError(\"CSV has no headers\")\r\n\r\n                missing_columns = (\r\n                    set(self.COLUMNS)\r\n                    - set(reader.fieldnames)\r\n                )\r\n\r\n                if missing_columns:\r\n                    raise ValueError(\r\n                        \"Missing CSV columns: \"\r\n                        + \", \".join(sorted(missing_columns))\r\n                    )\r\n\r\n                tasks = []\r\n                seen_ids = set()\r\n\r\n                for row in reader:\r\n                    task = {\r\n                        key: str(row.get(key) or \"\").strip()\r\n                        for key in self.COLUMNS\r\n                    }\r\n\r\n                    task_id = task[\"task_id\"]\r\n\r\n                    if not task_id:\r\n                        raise ValueError(\"Blank task ID\")\r\n\r\n                    if task_id in seen_ids:\r\n                        raise ValueError(\r\n                            \"Duplicate task ID: \" + task_id\r\n                        )\r\n\r\n                    seen_ids.add(task_id)\r\n\r\n                    if task[\"status\"] not in self.STATUSES:\r\n                        raise ValueError(\r\n                            \"Invalid status for \" + task_id\r\n                        )\r\n\r\n                    if task[\"due_date\"]:\r\n                        date.fromisoformat(task[\"due_date\"])\r\n\r\n                    tasks.append(task)\r\n\r\n            # Determine which tasks the user requested.\r\n            sprint_match = re.search(\r\n                r\"\\bsprint\\s*(\\d+)\\b\",\r\n                request,\r\n                re.IGNORECASE,\r\n            )\r\n\r\n            requested_sprint = (\r\n                \"Sprint \" + sprint_match.group(1)\r\n                if sprint_match\r\n                else None\r\n            )\r\n\r\n            requested_ids = sorted(set(\r\n                match.upper()\r\n                for match in re.findall(\r\n                    r\"\\bT\\d{3}\\b\",\r\n                    request,\r\n                    re.IGNORECASE,\r\n                )\r\n            ))\r\n\r\n            if requested_ids:\r\n                selected = [\r\n                    task for task in tasks\r\n                    if task[\"task_id\"].upper()\r\n                    in requested_ids\r\n                ]\r\n                scope = \"task\"\r\n\r\n            elif requested_sprint:\r\n                selected = [\r\n                    task for task in tasks\r\n                    if task[\"sprint\"].lower()\r\n                    == requested_sprint.lower()\r\n                ]\r\n                scope = \"sprint\"\r\n\r\n            else:\r\n                selected = list(tasks)\r\n                scope = \"project\"\r\n\r\n            selected_counts = self._counts(selected)\r\n\r\n            # Only compute overdue when a reference\r\n            # date was explicitly supplied.\r\n            overdue_ids = None\r\n\r\n            if as_of:\r\n                overdue_ids = [\r\n                    task[\"task_id\"]\r\n                    for task in selected\r\n                    if task[\"status\"] != \"Done\"\r\n                    and task[\"due_date\"]\r\n                    and date.fromisoformat(\r\n                        task[\"due_date\"]\r\n                    ) < as_of\r\n                ]\r\n\r\n            notes = [\r\n                \"Source CSV has no snapshot timestamp.\",\r\n                \"Task statuses are historical source \"\r\n                \"values, not verified live statuses.\",\r\n                \"Assignment narrative reports 3 Done; \"\r\n                \"source CSV records 5 Done.\",\r\n            ]\r\n\r\n            result = {\r\n                \"data_status\": \"AVAILABLE\",\r\n                \"source_file\": path.name,\r\n                \"source_type\": \"uploaded_task_board_csv\",\r\n                \"snapshot_date\": \"NOT_PROVIDED\",\r\n                \"report_as_of_date\": (\r\n                    as_of.isoformat() if as_of else None\r\n                ),\r\n                \"scope_type\": scope,\r\n                \"requested_sprint\": requested_sprint,\r\n                \"requested_task_ids\": requested_ids,\r\n                \"total_source_tasks\": len(tasks),\r\n                \"selected_task_count\": len(selected),\r\n                \"selected_counts\": selected_counts,\r\n                \"selected_tasks\": selected,\r\n                \"overdue_task_ids\": overdue_ids,\r\n                \"data_quality_notes\": notes,\r\n            }\r\n\r\n            # Whole-project counts are only supplied\r\n            # when the user requests project scope.\r\n            if scope == \"project\":\r\n                result[\"overall_counts\"] = (\r\n                    self._counts(tasks)\r\n                )\r\n\r\n            # Avoid falsely reporting missing sprint\r\n            # or task IDs as a successful empty report.\r\n            if not selected:\r\n                result[\"data_status\"] = (\r\n                    \"REQUESTED_SCOPE_NOT_FOUND\"\r\n                )\r\n                result[\"error\"] = (\r\n                    \"No tasks match the requested scope\"\r\n                )\r\n\r\n            return self._message(result)\r\n\r\n        except Exception as exc:\r\n            return self._message({\r\n                \"data_status\": \"INVALID_SOURCE\",\r\n                \"error\": str(exc),\r\n                \"selected_tasks\": [],\r\n                \"selected_counts\": self._counts([]),\r\n                \"tasks\": [],\r\n            })\r\n"
+              },
+              "csv_path": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "CSV File Path",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "csv_path",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "data/sample_task_board.csv"
+              },
+              "user_request": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "api_editable": false,
+                "display_name": "User Request",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "user_request",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "MiraStatusTaskProcessor"
+        },
+        "dragging": false,
+        "id": "CustomComponent-fGmmP",
+        "measured": {
+          "height": 371,
+          "width": 320
+        },
+        "position": {
+          "x": 208.92229553028278,
+          "y": -108.40541499964577
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 621.8432340805713,
+      "y": -205.77803164309148,
+      "zoom": 2
+    }
+  },
+  "description": "Your Passport to Linguistic Landscapes.",
+  "endpoint_name": null,
+  "id": "e26cd235-16b8-4d42-9a7e-74e373b14c62",
+  "is_component": false,
+  "last_tested_version": "1.11.0",
+  "locked": false,
+  "name": "Mira Status Reporter Agent",
+  "tags": []
+}
